@@ -87,6 +87,39 @@ public class CIEANBarcodeGenerator: CIFilter {
         }
     }
     
+    public var outputEAN13Image: CIImage? {
+        get {
+            let barcodeString: String = value(forKey: "inputMessage") as? String ?? ""
+            let barcode = parseBarcodeString(barcodeString)
+            if validateEAN13Barcode(barcode) {
+                return drawEAN13(barcode: barcode)
+            }
+            return nil
+        }
+    }
+    
+    public var outputUPCAImage: CIImage? {
+        get {
+            let barcodeString: String = value(forKey: "inputMessage") as? String ?? ""
+            let barcode = parseBarcodeString(barcodeString)
+            if validateUPCABarcode(barcode) {
+                return drawUPCA(barcode: barcode)
+            }
+            return nil
+        }
+    }
+    
+    public var outputEAN8Image: CIImage? {
+        get {
+            let barcodeString: String = value(forKey: "inputMessage") as? String ?? ""
+            let barcode = parseBarcodeString(barcodeString)
+            if validateEAN8Barcode(barcode) {
+                return drawEAN8(barcode: barcode)
+            }
+            return nil
+        }
+    }
+    
     public override func setDefaults() {
         inputMessage = ""
     }
