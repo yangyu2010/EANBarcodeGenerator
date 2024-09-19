@@ -1,8 +1,8 @@
 {
   "name": "EANBarcodeGenerator",
-  "version": "0.1.0",
-  "summary": "EAN-13, UPC-A barcode generator.",
-  "description": "EANBarcodeGenerator provides CIFilter witch allows to generate EAN-13, UPC-A barcodes.\nThis generator was created for iOS application PokeWall (https://itunes.apple.com/us/app/pokewall/id1449455385)",
+  "version": "0.3.2",
+  "summary": "EAN-13, EAN-8, UPC-A barcode generator.",
+  "description": "EANBarcodeGenerator provides CIFilter witch allows to generate EAN-13, EAN-8 and UPC-A barcodes.\nThis generator was created for iOS application PokeWall (https://itunes.apple.com/us/app/pokewall/id1449455385)",
   "homepage": "https://github.com/ampirator/EANBarcodeGenerator",
   "screenshots": "https://raw.githubusercontent.com/ampirator/EANBarcodeGenerator/master/Images/screenshot.jpg",
   "license": {
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/ampirator/EANBarcodeGenerator.git",
-    "tag": "0.1.0"
+    "tag": "0.3.2"
   },
   "swift_versions": "5.0",
   "platforms": {

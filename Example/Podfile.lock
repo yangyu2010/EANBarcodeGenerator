@@ -1,5 +1,5 @@
 PODS:
-  - EANBarcodeGenerator (0.1.0)
+  - EANBarcodeGenerator (0.3.2)
 
 DEPENDENCIES:
   - EANBarcodeGenerator (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EANBarcodeGenerator: 820274bd70fc8adc67974ae90b7a3b8973043f50
+  EANBarcodeGenerator: 3488e974cdb1349f5f31a35e2120ee387de28066
 
 PODFILE CHECKSUM: 6eb12bfd70f9c262524ec5e4c6232496e8bcbeb3
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.15.2
